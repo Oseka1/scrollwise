@@ -1,0 +1,152 @@
+{
+  "feature_columns": [
+    "Age",
+    "Academic_Level",
+    "Daily_Usage_Hours",
+    "Weekend_Extra_Hours",
+    "Sleep_Duration_Hours",
+    "Sleep_Quality_Score",
+    "Late_Night_Usage",
+    "Social_Comparison_Frequency",
+    "Perceived_Stress_Score",
+    "Academic_Performance_GPA",
+    "Gender_Male",
+    "Gender_Non-Binary",
+    "Gender_Prefer not to say",
+    "Primary_Platform_Instagram",
+    "Primary_Platform_LinkedIn",
+    "Primary_Platform_Reddit",
+    "Primary_Platform_Snapchat",
+    "Primary_Platform_TikTok",
+    "Primary_Platform_X (Twitter)",
+    "Primary_Platform_YouTube",
+    "Device_Type_Laptop/PC",
+    "Device_Type_Tablet"
+  ],
+  "classes": [
+    "Beneficial",
+    "Negative",
+    "Neutral"
+  ],
+  "impute_means": {
+    "Perceived_Stress_Score": 13.512123933542881,
+    "Academic_Performance_GPA": 3.4292819932049827
+  },
+  "ranges": {
+    "Age": {
+      "min": 15.0,
+      "max": 26.0,
+      "mean": 18.7
+    },
+    "Academic_Level": {
+      "min": 0.0,
+      "max": 2.0,
+      "mean": 0.73
+    },
+    "Daily_Usage_Hours": {
+      "min": 0.9,
+      "max": 14.0,
+      "mean": 5.3
+    },
+    "Weekend_Extra_Hours": {
+      "min": 0.0,
+      "max": 4.5,
+      "mean": 1.8
+    },
+    "Sleep_Duration_Hours": {
+      "min": 3.0,
+      "max": 10.5,
+      "mean": 6.7
+    },
+    "Sleep_Quality_Score": {
+      "min": 1.0,
+      "max": 5.0,
+      "mean": 2.47
+    },
+    "Late_Night_Usage": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.59
+    },
+    "Social_Comparison_Frequency": {
+      "min": 0.0,
+      "max": 4.0,
+      "mean": 2.27
+    },
+    "Perceived_Stress_Score": {
+      "min": 0.0,
+      "max": 40.0,
+      "mean": 13.51
+    },
+    "Academic_Performance_GPA": {
+      "min": 1.9,
+      "max": 4.0,
+      "mean": 3.43
+    },
+    "Gender_Male": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.46
+    },
+    "Gender_Non-Binary": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.03
+    },
+    "Gender_Prefer not to say": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.02
+    },
+    "Primary_Platform_Instagram": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.32
+    },
+    "Primary_Platform_LinkedIn": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.02
+    },
+    "Primary_Platform_Reddit": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.05
+    },
+    "Primary_Platform_Snapchat": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.1
+    },
+    "Primary_Platform_TikTok": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.27
+    },
+    "Primary_Platform_X (Twitter)": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.05
+    },
+    "Primary_Platform_YouTube": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.18
+    },
+    "Device_Type_Laptop/PC": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.13
+    },
+    "Device_Type_Tablet": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.03
+    }
+  },
+  "accuracy": {
+    "logreg": 0.9688888888888889,
+    "tree": 0.9477777777777778,
+    "forest": 0.9622222222222222
+  }
+}
